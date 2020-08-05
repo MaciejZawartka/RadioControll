@@ -215,3 +215,16 @@ void drive(){
   analogWrite(enA, motorPWM_L); 
   analogWrite(enB, motorPWM_R);
 }
+
+// ------------- CELOWANIE --------------------
+
+void aim(){
+  //wskazania joystickow do poruszania dzialem
+  //odczyt wskazan
+  //mapowanie z 0 - 255 -> 0 - 6
+  //konwertowanie ( -3 + x ) / 10 jako wspolczynnik
+  //przeliczanie wartosci
+  //zapisanie do serwa
+  
+  
+  }
